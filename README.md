@@ -1,10 +1,10 @@
-# Webpack React Preact
+# Bionet UI
 A React-in-development/Preact-in-production Build Using Webpack.
 
 ## Clone
 ```
-git clone https://github.com/matthewstewart/webpack-react-preact.git
-cd webpack-react-preact
+git clone https://github.com/matthewstewart/bionet.git
+cd bionet
 ```
 
 ## Install
