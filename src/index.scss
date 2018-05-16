@@ -2,3 +2,14 @@ html, body {
 	margin: 0;
 	padding: 0;
 }
+
+.viewport-container {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: auto;
+	min-height: calc(100vh - 53px);
+	background-color: #eee;
+	margin-top: 53px;
+	padding: 12px;
+}

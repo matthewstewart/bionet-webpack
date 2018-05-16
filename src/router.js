@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Landing from './routes/landing';
+import Search from './routes/search';
 
 class Router extends Component {
   render() {
-    const landingPage = () => {
-      return ( <Landing {...this.props} /> );
+    const searchPage = () => {
+      return ( <Search {...this.props} /> );
     };
     return (
       <main>
         <Switch>
-          <Route exact path='/' render={landingPage} />
+          <Route exact path='/' render={searchPage} />
         </Switch>
       </main>
     );
