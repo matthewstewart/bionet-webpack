@@ -1,23 +1,27 @@
 # Bionet UI
-A React-in-development/Preact-in-production Build Using Webpack.
+A Webpack Build That Aliases React Code Into Preact. Bulma & Sass Support Included.
 
-## Clone
+
+## Install
+
+### Clone
 ```
 git clone https://github.com/matthewstewart/bionet.git
 cd bionet
 ```
 
-## Install
+### Install Dependencies
 ```
 npm install
 ```
 
-## Development Server
+### Development Server
 ```
 npm run start
 ```
 
-## Production Build
+### Production Build
 ```
 npm run build
 ```
+
